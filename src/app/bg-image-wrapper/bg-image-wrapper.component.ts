@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { networkInterfaces } from 'os';
 
 @Component({
   selector: 'app-bg-image-wrapper',
@@ -103,16 +102,16 @@ export class BgImageWrapperComponent implements OnInit {
     0.12: '1F',
     0.11: '1C',
     0.10: '1A',
-    0.9: '17',
-    0.8: '14',
-    0.7: '12',
-    0.6: '0F',
-    0.5: '0D',
-    0.4: '0A',
-    0.3: '08',
-    0.2: '05',
-    0.1: '03',
-    0.0: '00'
+    0.09: '17',
+    0.08: '14',
+    0.07: '12',
+    0.06: '0F',
+    0.05: '0D',
+    0.04: '0A',
+    0.03: '08',
+    0.02: '05',
+    0.01: '03',
+    0.00: '00'
   }
 
   constructor() { }
@@ -130,7 +129,7 @@ export class BgImageWrapperComponent implements OnInit {
     console.log(this.color)
   }
 
-  hexToRGB(h) {
+  hexToRGB(h: string) {
     let r = '0', g = '0', b = '0';
     // 3 digits
     if (h.length == 4) {
