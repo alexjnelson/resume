@@ -1,0 +1,27 @@
+<section class="row px-5 pt-5 justify-content-center">
+    <div class="col-12 col-lg-5 pt-5">
+        <img src="{{url}}" alt="" class="img-fluid wow fadeInUp" data-wow-duration="0.8s"
+            data-wow-delay="0.4s">
+    </div>
+
+    <div class="col-12 col-lg-5 mt-1 mt-xl-5 p-lg-5">
+        <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">About Me</h2>
+        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Hi, I'm Alex Nelson. I'm a Software
+            Engineering and Business Administration student at Western University and the Ivey School of Business. As a
+            machine learning enthusiast, my favourite language is Python, but I'm also skilled at:
+        </p>
+
+        <!-- TO DO: Turn into editable list -->
+        <div class="container-fluid wow fadeInUp float-left px-0 mt-3" data-wow-duration="0.8s" data-wow-delay="0.3s">
+            <div *ngFor="let skill of ['Java', 'C#', 'JavaScript', 'Angular', 'Bootstrap', 'Node.js', 
+                                        'TensorFlow', 'Power BI', 'Excel', 'Linux CLI']"
+                class="list-item m-2 mb-3 float-left">
+                <span class="p-2">{{skill}}</span>
+            </div>
+        </div>
+
+        <!-- TO DO: Add resume link OR add popup to input email so I can send it to them -->
+        <button href="" class="btn wow fadeInUp mt-4" data-wow-duration="0.8s" data-wow-delay="0.4s">Get Resume<i
+                class="fa fa-download ml-3"></i></button>
+    </div>
+</section>

@@ -1,0 +1,36 @@
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: var(--font);
+}
+
+.form-control{
+    color: var(--font);
+    background-color: transparent;
+    opacity: 0.7;
+}
+
+.btn {
+    transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    outline: 0;
+    padding: 8px 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: var(--main);
+    color: var(--text-on-main)
+}
+
+.btn:hover {
+    background-color: var(--accent);
+    color: var(--text-on-accent)
+}

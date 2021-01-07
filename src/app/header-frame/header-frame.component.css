@@ -1,0 +1,87 @@
+*{
+    color: var(--font)
+}
+
+h2 {
+    font-size: 3.75rem;
+    font-weight: 600;
+    line-height: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.625rem;
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+
+.promo {
+    margin-bottom: 30px;
+}
+
+.promo span {
+    color: var(--text-on-main);
+    background-color: var(--main);
+    font-size: 0.875rem;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+
+.headshot {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headshot img {
+    text-align: center;
+    border: 20px solid rgba(0, 0, 0, 0.17);
+    border-radius: 50%;
+}
+
+.social-icon {
+    list-style: none;
+    float: left;
+}
+
+.social-icon .fab {
+    font-size: 1.125rem;
+    line-height: 30px;
+    border-radius: 3px;
+    transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+}
+
+.social-icon .fab:hover {
+    color: var(--theme);
+    background-color: var(--main);
+}
+
+.img-border {
+    height: 400px;
+    width: 400px;
+    border: 20px solid rgba(0, 0, 0, 0.07);
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.projects-sect-img img {
+    width: inherit !important;
+    margin: 0 auto;
+}
+
+.project-slide-window {
+    margin: 0 auto;
+}

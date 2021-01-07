@@ -1,0 +1,14 @@
+<nav class="navbar fixed-top navbar-expand-xl" [class.transparent]="atTop && !menuActive">
+    <button (click)="menuActive = !menuActive" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="col-12 col-xl-6 ml-0 ml-xl-auto float-left">
+            <!-- TO DO: Turn into editable list -->
+            <ul class="navbar-nav p-1">
+                <li *ngFor="let page of pages" class="nav-item p-1"><a class="nav-link" href="#{{page.id}}">{{page.title}}</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

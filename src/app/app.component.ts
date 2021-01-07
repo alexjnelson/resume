@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { NavItem } from './navigation/nav-item'
+import { pages } from './navigation/pages'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-site';
+  title = 'Alex Nelson';
+  pages: NavItem[] = pages;
 }

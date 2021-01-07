@@ -1,0 +1,21 @@
+h2{
+    font-weight: bold;
+}
+
+.fa {
+    font-size: 1.875rem;
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+
+.fa.purple-color {
+    color: #9774fa;
+}
+
+.fa.iron-color {
+    color: #ed7256;
+}
+
+.fa.sky-color {
+    color: #2796e2;
+}

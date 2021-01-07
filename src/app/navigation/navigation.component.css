@@ -1,0 +1,42 @@
+nav {
+    background-color: var(--raised);
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+}
+
+nav.transparent {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+li {
+    margin: 0 20px;
+}
+
+li a {
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.125rem;
+    opacity: 1;
+    color: var(--inverted);
+}
+
+li a.nav-link {
+    padding-left: 0;
+    padding-right: 0;
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -o-transition: color 0.3s;
+}
+
+li a:hover {
+    color: var(--main);
+}
+
+li a.active {
+    border-bottom: 1px solid var(--inverted);
+}

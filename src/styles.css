@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+/* DEFAULT THEME */
+
+:root {
+    --main: #11BFC1;
+    --accent: #DC2C24;
+    --theme: #fff;
+    --inverted: #000;
+    --raised: #fff;
+    --font: #1D1D1D;
+    --text-on-main: #fff;
+    --text-on-accent: #fff;
+}
+
+/* IF DARK MODE DETECTED */
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main: #11BFC1;
+        --accent: #DC2C24;
+        --theme: #100E17;
+        --inverted: #DCDCDC;
+        --raised: #1E1E25;
+        --font: #DCDCDC;
+        --text-on-main: #fff;
+        --text-on-accent: #fff;
+    }
+}
+
+/* roboto-regular - latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/roboto-v20-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('assets/fonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('assets/fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('assets/fonts/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('assets/fonts/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('assets/fonts/roboto-v20-latin-regular.svg#Roboto') format('svg');
+    /* Legacy iOS */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875rem;
+    font-style: none;
+    line-height: 24px;
+    font-weight: 500;
+    overflow-x: hidden !important;
+    text-align: left;
+    position: relative;
+    background-color: var(--theme);
+    color: var(--font);
+}
