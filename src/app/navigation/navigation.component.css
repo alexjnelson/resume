@@ -40,3 +40,11 @@ li a:hover {
 li a.active {
     border-bottom: 1px solid var(--inverted);
 }
+
+li a.disabled {
+    color: var(--muted);
+}
+
+li a.disabled:hover {
+    color: var(--muted);
+}

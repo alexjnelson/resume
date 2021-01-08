@@ -18,4 +18,10 @@ export class AboutFrameComponent implements OnInit {
     }
   }
 
+  // TO DO: Add resume download
+  getResume(): void{
+    console.log(document.getElementById("contact"));
+    document.getElementById("contact")?.scrollIntoView();
+  }
+
 }

@@ -7,6 +7,7 @@
     --inverted: #000;
     --raised: #fff;
     --font: #1D1D1D;
+    --muted: #888888;
     --text-on-main: #fff;
     --text-on-accent: #fff;
 }
@@ -21,6 +22,7 @@
         --inverted: #DCDCDC;
         --raised: #1E1E25;
         --font: #DCDCDC;
+        --muted: #888888;
         --text-on-main: #fff;
         --text-on-accent: #fff;
     }

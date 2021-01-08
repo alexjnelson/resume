@@ -1,5 +1,7 @@
 export interface NavItem{
-    title: string;
+    name: string;
     id: string;
     home?: boolean;
+    disabled?: boolean;
+    tooltip?: string;
 }
